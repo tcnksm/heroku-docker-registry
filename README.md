@@ -7,7 +7,13 @@ This is a sample project to run new Go based [Docker Registry](https://github.co
 
 ## Deploy to Heroku
 
-To deploy,
+To use this respository, you need to install [Heroku docker plugin](https://github.com/heroku/heroku-docker) first, 
+
+```bash
+$ heroku plugins:install heroku-docker
+```
+
+And deploy, 
 
 ```bash
 $ heroku create

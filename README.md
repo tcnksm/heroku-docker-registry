@@ -1,10 +1,9 @@
-Docker Registry on Heroku
+Docker Registry on Heroku [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)][license]
 ====
 
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)][license]
-[license]: https://github.com/tcnksm/gox-server/blob/master/LICENSE
+[license]: https://github.com/tcnksm/heroku-docker-registry/blob/master/LICENSE
 
-This is a sample project to run new Go based [Docker Registry](https://github.com/docker/distribution) on Heroku using `Dockerfile`. 
+This is a sample project to run new Go based [Docker Registry](https://github.com/docker/distribution) on Heroku. 
 
 ## Deploy to Heroku
 

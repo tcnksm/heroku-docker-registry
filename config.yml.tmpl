@@ -1,0 +1,19 @@
+version: 0.1
+log:
+  level: debug
+  fields:
+    service: registry
+    environment: development
+storage:
+    cache:
+        layerinfo: inmemory
+    filesystem:
+        rootdirectory: /app/tmp/registry-dev
+    maintenance:
+        uploadpurging:
+            enabled: false
+http:
+    addr: :${PORT}
+    secret: asecretforlocaldevelopment
+    debug:
+        addr: localhost:5001

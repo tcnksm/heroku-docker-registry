@@ -25,7 +25,7 @@ $ heroku docker:release
 For example Heroku application name is `warm-spire-8712`, to build image,
 
 ```bash
-$ docker build -t https://warm-spire-8712.herokuapp.com/tcnksm/test-heroku .
+$ docker build -t warm-spire-8712.herokuapp.com/tcnksm/test-heroku .
 ```
 
 To push image,
